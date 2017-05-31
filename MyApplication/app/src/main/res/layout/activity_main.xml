@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/telafundo"
+    android:weightSum="1">
+
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bmodolivre"
+        android:id="@+id/ButtonLivre"
+        android:paddingTop="32sp"
+        android:drawablePadding="-15sp"
+        android:layout_marginTop="160dp"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@drawable/baprendizagem"
+        android:id="@+id/ButtonAprendizagem"
+        android:paddingTop="32sp"
+        android:drawablePadding="-15sp"
+        android:layout_marginTop="1dp"/>
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:background="@drawable/bgravacao"
+        android:id="@+id/ButtonGravacao"
+        android:paddingTop="32sp"
+        android:drawablePadding="-15sp"
+        android:layout_marginTop="1dp"/>
+
+    <Button
+        android:id="@+id/ButtonEscolher"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bescolherinstrumento"
+        android:drawablePadding="-15sp"
+        android:paddingTop="32sp"
+        android:layout_marginTop="1dp"/>
+
+
+
+</LinearLayout>
